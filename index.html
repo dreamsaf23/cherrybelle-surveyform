@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Cherrybelle Survey Forms</h1>
+    <p id="description">Please fill the form, thank you.</p>
+
+    <form id="survey-form" action="">
+        <label for="name" id="name-label">
+            Name
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+            <label for="email" id="email-label">
+            Email
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+        <label for="number" id="number-label">
+            Age
+            <input type="number" id="number" name="quantity" min="14" max="60" placeholder="Age" required>
+        </label>
+        <label for="dropdown" id="dropdown-label">
+           How do you know Cherrybelle?
+        <select id="dropdown">
+            <option value="">Youtube</option>
+            <option value="">Facebook</option>
+            <option value="">Instagram</option>
+            <option value="">Twitter</option>
+        </select>
+
+        <label for="members" id="members-label">
+           Who is your favorite members? </label>
+
+        <input type="radio" name="members" value="1" checked> Sarwendah Tan <br>
+        <input type="radio" name="members" value="2"> Christy <br>
+        <input type="radio" name="members" value="3"> Cynthia <br>
+        <input type="radio" name="members" value="4"> Angelina <br>
+        <input type="radio" name="members" value="5"> Felly <br>
+        <input type="radio" name="members" value="6"> Dewi <br>
+        <input type="radio" name="members" value="7"> Novi <br>
+        <input type="radio" name="members" value="8"> Mutiara <br>
+        <input type="radio" name="members" value="9"> Agatha <br>
+        
+        <br>
+        <label for="albums" id="albums-label">
+            Choose your favorite album(s)? </label>
+
+        <input type="checkbox" value="beautiful"> Beautiful <br>
+        <input type="checkbox" value="loveIsYou"> Love Is You <br>
+        <input type="checkbox" value="willYouBeMyLove"> Will You Be My Love <br>
+        <input type="checkbox" value="zeroToHero"> Zero To Hero <br>
+        <br>
+        <label for="comments" id="comments-label">
+            Any comments or suggestions?
+            <textarea id="comments" cols="30" rows="10"></textarea>
+        </label>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      </body>
+</html>
