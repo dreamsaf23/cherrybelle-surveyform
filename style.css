@@ -17,7 +17,7 @@ body::before {
       rgba(255, 178, 215, 0.5) 39%,
       rgba(34, 211, 238, 0.5) 100%
     ),
-    url(wallpaper.jpg);
+    url(img/wallpaper.jpg);
   background-size: cover;
   z-index: -1;
 }
